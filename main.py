@@ -35,17 +35,7 @@ async def google(ctx, arg):
 async def on_ready():
     print('We have logged in as {0.user}'.format(client))
     await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="for $help"))
-    
-@bot.command()
-async def spam(ctx, members: commands.Greedy[discord.Member], content):
-    for member in members:
-        total = '50'
-        for i in range (int(total)):
-            await member.send(content)
-@spam.error
-async def spam_error(ctx, error):
-    if isinstance(error, commands.MissingRequiredArgument):
-      await ctx.send("Please specify a message and User!\n Ex) ```$spam @PlentyBot Hello```")
+
             
 @bot.command() # A youtube search because also why not
 async def youtube(ctx, arg):
