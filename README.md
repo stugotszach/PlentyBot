@@ -3,4 +3,4 @@
 <a href="https://github.com/stugotszach/PlentyBot/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/stugotszach/PlentyBot?style=for-the-badge"></a>
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/stugotszach/PlentyBot?style=for-the-badge">
 <h1>Information</h1>
-<p>This repo is not meant to be used its here for transparency between the user and creator.</p>
+<p>This repo is not meant to be used its here for transparency between the user and creator. (outdated bot)</p>
